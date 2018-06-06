@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Just Java</string>
+    <string name="justjava_ice_cream_layout">justjava Ice Cream Layout</string>
+    <string name="cookies">Cookies Layout</string>
+    <string name="score_board">Score board Layout</string>
+    <string name="justjava">Just Java app layouts</string>
 </resources>

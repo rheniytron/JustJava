@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/justjava"
+        android:textSize="28dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:fontFamily="sans-serif"
+        android:layout_margin="32dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center"
+        android:background="@drawable/btn_stroked"
+        android:text="@string/justjava_ice_cream_layout"
+        android:id="@+id/iceCream_Layout"
+        android:textColor="@color/btn_text_color"
+        android:layout_margin="16dp"
+        android:onClick="iceCream_Layout"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center"
+        android:background="@drawable/btn_stroked"
+        android:text="@string/cookies"
+        android:id="@+id/cookies"
+        android:textColor="@color/btn_text_color"
+        android:layout_margin="16dp"
+        android:onClick="cookies"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:gravity="center"
+        android:background="@drawable/btn_stroked"
+        android:text="@string/score_board"
+        android:id="@+id/score_board"
+        android:textColor="@color/btn_text_color"
+        android:layout_margin="16dp"
+        android:onClick="score_board"/>
+
+
+</LinearLayout>

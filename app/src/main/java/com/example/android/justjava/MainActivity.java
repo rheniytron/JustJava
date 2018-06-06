@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -14,12 +15,16 @@ import android.widget.TextView;
 import java.lang.reflect.Array;
 import java.text.NumberFormat;
 
+import static com.example.android.justjava.R.layout.activity_main;
+import static com.example.android.justjava.R.layout.cookies;
+import static com.example.android.justjava.R.layout.court_counter;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
 
     }
 
@@ -196,4 +201,28 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void iceCream_Layout(View view) {
+        try {
+            this.setContentView(activity_main);
+        } catch (Exception ex){
+            Log.e("layout",ex.toString());
+        }
+
+    }
+
+    public void cookies(View view) {
+        try {
+            this.setContentView(cookies);
+        } catch (Exception ex){
+            Log.e("layout",ex.toString());
+        }
+    }
+
+    public void score_board(View view) {
+        try {
+            this.setContentView(court_counter);
+        } catch (Exception ex){
+            Log.e("layout",ex.toString());
+        }
+    }
 }
